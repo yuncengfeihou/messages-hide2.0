@@ -1,0 +1,31 @@
+#hide_plugin_panel {
+    z-index: 1000;
+    background: var(--SmartThemeBlurColor);
+    backdrop-filter: blur(4px);
+}
+
+.hide-section {
+    margin-bottom: 10px;
+}
+
+.menu_button {
+    background: var(--SmartThemeButtonColor);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.menu_button:hover {
+    background: var(--SmartThemeButtonHoverColor);
+}
+
+input[type="number"] {
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: var(--SmartThemeBodyColor);
+    color: var(--SmartThemeTextColor);
+}
